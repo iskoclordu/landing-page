@@ -53,8 +53,8 @@ a{
 .header-main {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    justify-content: flex-start;
+    gap: 80px;
     padding: 75px 150px;
     align-items: stretch;
 }
@@ -160,19 +160,23 @@ a{
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 10px 150px;
+    padding: 30px 150px;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 200;
     text-align: left;
+    max-width: 800px;
+    margin: 0;
 }
 
 .quote-credit {
     font-size: 24px;
     font-weight: 700;
     align-self: flex-end;
+    max-width: 800px;
+    margin: 0;
 }
 
 
@@ -183,7 +187,7 @@ a{
     padding: 15px 50px;
     justify-content: space-between;
     border-radius: 25px;
-    gap: 20px;
+    gap: 40px;
     max-width: 1080px;
     align-self: center;
 }
